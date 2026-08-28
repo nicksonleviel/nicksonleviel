@@ -38,6 +38,6 @@ This project was follow-up tested with 1 beginner composer using the built app, 
 
 ---
 
-<sub>Thanks for stopping by — always happy to talk about any of these projects.</sub>
+<sub>Thanks for stopping by. Always happy to talk about any of these projects.</sub>
 
 <sub>nicksonleviel9@gmail.com</sub>
