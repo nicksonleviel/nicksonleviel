@@ -1,207 +1,46 @@
 # Hi, I'm Nickson 👋
 
-<!--
-Short one-line introduction.
-Example:
-Software Engineer focused on building reliable and user-friendly web applications.
--->
+### I build apps across different domains, such as agriculture, parenting, music. Every project is shaped by real user interviews and refined through testing.
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/nicksonleviel)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![Website](https://img.shields.io/badge/Website-000000?style=flat&logo=google-chrome&logoColor=white)](YOUR_WEBSITE_URL)
+<sub>Currently at **Apple Developer Academy @ BINUS, Tangerang**.</sub>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nickson-leviel-hermawan/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:nicksonleviel9@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/6281298481118)
 
 ---
 
-## 👨‍💻 About Me
+## Projects
 
-<!--
-Write 2–4 sentences about yourself.
+### iMango — An IoT device connected to an iPad app to help BIKI monitor and track shipment temperature, humidity, shock, and location in real-time to reduce fruit damage that leads to food waste.
+Demo Video: https://drive.google.com/file/d/1BTpN_70cBYPElW0d5DlohhrA-Lvs805d/view?usp=sharing
 
-Things you could mention:
-- What you do
-- What you're interested in
-- What kind of software you build
-- Your current focus
-- Your background
--->
+Fruit shipments in Indonesia often arrive damaged with no record of when, where, or how it happened. So, we made an IoT device, particularly for mangoes, that solves this problem. This device tracks mango shipments using sensors, sending it to the cloud, and showing the data through an iPad. An interesting mechanic is that rather than streaming continuous sensor data to the cloud, which is resource expensive, the device decides locally whether an event is even worth reporting: it publishes over MQTT only on a periodic heartbeat or a real threshold breach.
+This project was exhibited to 20+ experts, academics, practitioners, and other stakeholders.
 
-I'm a [ROLE] interested in [AREAS OF INTEREST].
+### Tale Me! — A storytelling app that helps parents and children create stories together — no planning needed, just press record and let the story unfold.
+Working urban parents often have little energy left after a full day of work to set up engaging playtime with their preschool children, even though this time matters most for a child's development. That's why we built an iPad app that instantly starts a conversation using storytelling prompts with zero setup, taken from a curated prompt bank rather than generating them live, which trades personalization for zero latency and full control over what's appropriate for 4–7 year olds. The app also records the resulting conversations for a history page entirely on-device, so a child's voice never leaves the iPad.
+This project was piloted with 4 families, with post-production feedback from 2 domain experts.
 
-I enjoy building [TYPES OF PROJECTS / SOFTWARE] and I'm currently focused on [CURRENT FOCUS].
+### Bach Studio — An app that provides melody-based references to help beginner composers stay focused without feeling overwhelmed.
+GitHub Repo: https://github.com/GabriellaErlinda/StudioBach
 
-- 🔭 Currently working on: [PROJECT / THING YOU'RE WORKING ON]
-- 🌱 Currently learning: [TECHNOLOGY / SUBJECT]
-- 💡 Interested in: [TOPICS]
-- 📍 Based in: [LOCATION, OPTIONAL]
-- 📫 Contact me: [EMAIL OR CONTACT LINK]
+Beginner composers often get an initial idea for a song but struggle to continue it midway. So, we did research into what separates beginners from experts found that experienced composers are able to find relevant external references to keep going, something beginners struggle. We built an app that takes an initial recording and matches it to an existing song from a song bank rather than generating a reference live, which gives instant, reliable matches. Also, rather than just returning the matched song, it positions the playback directly to the specific timestamp where the similarity was detected, so the composer doesn't have to hunt through the full track to find the relevant part themselves.
+This project was follow-up tested with 1 beginner composer using the built app, plus feedback from 1 domain expert.
 
 ---
 
-## 🛠️ Technologies & Tools
+## Stack
 
-### Languages
 
-<!-- Replace/add technologies as appropriate -->
+**Core:** ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white) ![SwiftUI](https://img.shields.io/badge/SwiftUI-0066CC?style=flat&logo=swift&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![C/C++](https://img.shields.io/badge/C%2FC++-00599C?style=flat&logo=cplusplus&logoColor=white) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat) ![Vapor](https://img.shields.io/badge/Vapor-2B2B2B?style=flat&logo=swift&logoColor=white) ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-
-### Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-
-### Backend
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-
-### Database & Infrastructure
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+**Also use:** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=white)
 
 ---
 
-## 🚀 Featured Projects
-
-<!--
-Choose 3–5 of your best projects.
-
-For each project:
-- What is it?
-- Why did you build it?
-- What technologies did you use?
-- What is technically interesting about it?
-- Include links to the repository and live demo if available.
--->
-
-### [Project Name](PROJECT_GITHUB_URL)
-
-> Short one-sentence description of the project.
-
-**Tech:** `Technology` · `Technology` · `Technology`
-
-Brief explanation of what the project does and what makes it interesting.
-
-**Highlights:**
-- [Interesting feature / technical challenge]
-- [Interesting feature / technical challenge]
-- [What you learned / accomplished]
-
-[GitHub](PROJECT_GITHUB_URL) · [Live Demo](PROJECT_DEMO_URL)
-
 ---
 
-### [Project Name](PROJECT_GITHUB_URL)
+<sub>Thanks for stopping by — always happy to talk about any of these projects.</sub>
 
-> Short one-sentence description of the project.
-
-**Tech:** `Technology` · `Technology` · `Technology`
-
-Brief explanation of what the project does.
-
-**Highlights:**
-- [Interesting feature / technical challenge]
-- [Interesting feature / technical challenge]
-- [What you learned / accomplished]
-
-[GitHub](PROJECT_GITHUB_URL) · [Live Demo](PROJECT_DEMO_URL)
-
----
-
-### [Project Name](PROJECT_GITHUB_URL)
-
-> Short one-sentence description of the project.
-
-**Tech:** `Technology` · `Technology` · `Technology`
-
-Brief explanation of what the project does.
-
-**Highlights:**
-- [Interesting feature / technical challenge]
-- [Interesting feature / technical challenge]
-- [What you learned / accomplished]
-
-[GitHub](PROJECT_GITHUB_URL) · [Live Demo](PROJECT_DEMO_URL)
-
----
-
-## 📚 Currently Learning
-
-<!--
-Keep this short. Focus on things you're actually learning right now.
--->
-
-- [Technology / concept]
-- [Technology / concept]
-- [Technology / concept]
-
----
-
-## 💼 Experience
-
-<!--
-Optional.
-Use this section if you have professional experience, internships,
-freelance work, significant open-source work, etc.
--->
-
-### [Job / Role] — [Company]
-
-`START DATE – END DATE`
-
-Short description of what you did.
-
-- [Achievement / responsibility]
-- [Achievement / responsibility]
-- [Achievement / responsibility]
-
----
-
-## 🏆 Achievements & Contributions
-
-<!--
-Optional. Good things to include:
-- Open-source contributions
-- Hackathons
-- Certifications
-- Awards
-- Notable projects
-- Community involvement
--->
-
-- 🏆 [Achievement]
-- 🌟 [Achievement]
-- 🔓 [Open-source contribution]
-- 🎓 [Certification / education]
-
----
-
-## 📊 GitHub
-
-<!--
-Optional section.
-You can add GitHub statistics later if you want.
--->
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nicksonleviel&show_icons=true&theme=transparent)
-
----
-
-## 📫 Let's Connect
-
-I'm always interested in [collaborating / discussing software / interesting projects / job opportunities].
-
-- 🌐 Website: [YOUR WEBSITE](YOUR_WEBSITE_URL)
-- 💼 LinkedIn: [YOUR NAME](YOUR_LINKEDIN_URL)
-- 📧 Email: [YOUR EMAIL](mailto:YOUR_EMAIL)
-- 🐙 GitHub: [@nicksonleviel](https://github.com/nicksonleviel)
-
----
-
-<sub>Thanks for stopping by! 👋</sub>
+<sub>nicksonleviel9@gmail.com</sub>
