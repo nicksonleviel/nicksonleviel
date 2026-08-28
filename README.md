@@ -9,7 +9,7 @@
 
 ---
 
-## Projects
+## Selected Projects
 
 ### iMango — An IoT device connected to an iPad app to help BIKI monitor and track shipment temperature, humidity, shock, and location in real-time to reduce fruit damage that leads to food waste.
 Demo Video: https://drive.google.com/file/d/1BTpN_70cBYPElW0d5DlohhrA-Lvs805d/view?usp=sharing
